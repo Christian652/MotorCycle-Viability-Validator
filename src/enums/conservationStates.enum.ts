@@ -1,5 +1,5 @@
 export enum ConservationStates {
-  NEW = "Novo",
+  NEW = "Nova",
   MIDLELIFE = "Meia Vida",
-  BAD = "Velho"
+  BAD = "Velha"
 }

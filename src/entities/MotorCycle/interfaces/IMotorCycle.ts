@@ -5,6 +5,7 @@ import { MotoRepair } from '../../MotoRepair/MotoRepair';
 export interface IMotorCycle {
   model: MotorCycleModels;
   state: ConservationStates;
+  price: number;
   repairs: MotoRepair[];
   year: number;
 }
