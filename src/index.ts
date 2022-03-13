@@ -21,17 +21,4 @@ const bros = new MotorCycle({
   repairs: brosRepairs
 });
 
-// Simulação de Xre 190
-const XRE190Repairs = [
-  new MotoRepair({ title: "cano da descarga", price: 300 }),
-  new MotoRepair({ title: "pneu de tras", price: 150 })
-];
-
-const XRE190 = new MotorCycle({
-  model: MotorCycleModels.XRE190,
-  year: 2016,
-  state: ConservationStates.MIDLELIFE,
-  repairs: XRE190Repairs
-});
-
 printResult(getPrice(bros));
